@@ -1,12 +1,14 @@
-# Solar-Data-Analysis
+# Solar Farm Data Analysis Challenge
+**Overview**
+This repository contains code and documentation for the Solar Farm Data Analysis Challenge. The challenge involves analyzing solar farm data from Benin, Sierra Leone, and Togo to derive actionable insights and recommend optimal solar farm locations. The project includes exploratory data analysis (EDA), statistical analysis, and the development of an interactive Streamlit dashboard.
 
-This repository contains the code, analysis, and documentation for a week-long challenge focused on understanding, exploring, and analyzing solar farm data from Benin, Sierra Leone, and Togo. The challenge is part of the evaluation process for a 12-week training program in Data Engineering (DE), Financial Analytics (FA), and Machine Learning Engineering (MLE).
-
-The objective of this project is to perform exploratory data analysis (EDA) on environmental measurements, derive actionable insights, and develop a strategic recommendation for optimal solar farm locations. The project also includes building a Streamlit dashboard to visualize data insights.
-
-Key components of this repository:
-
-Data Understanding & EDA: Exploratory data analysis to uncover trends and patterns.
-Statistical Analysis: Using statistical methods to support data-driven decisions.
-Streamlit Dashboard: An interactive dashboard for visualizing key insights.
-CI/CD Implementation: Automated testing and deployment setup.
+**Repository Structure**
+.github/: Contains GitHub-specific files, including CI/CD workflows.
+workflows/: Stores GitHub Actions workflows for automated testing and deployment.
+src/: Contains source code for data processing and analysis.
+notebooks/: Holds Jupyter notebooks used for data exploration and visualization.
+tests/: Contains test scripts and configurations.
+scripts/: Includes miscellaneous scripts for automation or data processing.
+.gitignore: Specifies files and directories to be ignored by Git.
+requirements.txt: Lists Python dependencies required for the project.
+README.md: Provides an overview of the project and instructions for use.
